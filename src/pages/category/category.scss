@@ -1,0 +1,38 @@
+// categorys.scss
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.category-grid {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h2 {
+        color: #333;
+    }
+}
+
+.add-category-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.add-category-btn:hover {
+    background-color: #45a049;
+}

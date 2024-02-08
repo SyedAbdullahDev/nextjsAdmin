@@ -1,0 +1,31 @@
+/* YourComponent.scss */
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Adjust as needed to center vertically */
+}
+
+.white-text {
+    color: white;
+}
+/* ComplaintScreen.scss */
+
+.complaint-screen {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+
+    h2 {
+        color: #333;
+    }
+
+    p {
+        color: #555;
+    }
+}

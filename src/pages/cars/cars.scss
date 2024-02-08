@@ -1,0 +1,56 @@
+// CarTable.scss
+
+.car-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #088429;    }
+}
+
+// ColorTable.scss
+.add-service-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.color-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #088429;
+    }
+}
+
+// App.scss
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

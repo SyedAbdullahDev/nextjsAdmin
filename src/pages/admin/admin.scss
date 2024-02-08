@@ -1,0 +1,36 @@
+// Admin.scss
+
+.admin-details {
+    background-color: #424242;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+
+    h2 {
+        color: #dddcdc;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+}
+
+// UserTable.scss
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #504f4f;
+    }
+}
